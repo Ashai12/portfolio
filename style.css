@@ -35,12 +35,14 @@ nav h1{
 
     color:transparent;
     font-size:28px;
+    -webkit-text-stroke:1px rgba(255, 255, 255, 0.35);
     background:linear-gradient(
         110deg,
         #ffe600 0%,
-        #ffe600 40%,
-        #fff8b0 50%,
-        #ffe600 60%,
+        #ffe600 34%,
+        #ffffff 46%,
+        #ffffff 56%,
+        #ffe600 68%,
         #ffe600 100%
     );
     background-size:250% 100%;
