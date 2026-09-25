@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta name="keywords"
+        content="Développeur web, html, css, JavaScript, php, sql, React.js, React-Native, Symfony, MySql, Firebase, Electron.js, Wordpress, Jest.js, Material UI, Visual Studio Code, Python, Ile de France, Code Wallet, Alternance">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="French">
+    <meta name="revisit-after" content="5 days days">
+    <meta name="author" content="Ashai Jasaron">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Ashaï Jasaron</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <h1 class="press-start-2p-regular">Ashaï Jasaron</h1>
+
+            <ul>
+                <li><a href="#technologies">technologies</a></li>
+                <li><a href="#projects">projets</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero">
+
+            <h2>Développeur web</h2>
+
+            <div class="icons">
+                <i class="fa-solid fa-mug-hot"></i>
+                <i class="fa-solid fa-paperclip"></i>
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-link"></i>
+                <i class="fa-solid fa-gear"></i>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <section id="technologies">
+
+        <h2>Mes technologies</h2>
+
+        <div class="grid">
+
+            <a href="https://www.w3schools.com/html/" target="_blank"><img src="images/html.jpg" alt=""></a>
+            <a href="https://www.w3schools.com/css/" target="_blank"><img src="images/css.png" alt=""></a>
+            <a href="https://www.w3schools.com/js/" target="_blank"><img src="images/js.png" alt=""></a>
+            <a href="https://www.w3schools.com/php/" target="_blank"><img src="images/php.webp" alt=""></a>
+            <a href="https://www.w3schools.com/sql/" target="_blank"><img src="images/sql.webp" alt=""></a>
+
+            <a href="https://reactjs.org/" target="_blank"><img src="images/react.webp" alt=""></a>
+            <a href="https://reactnative.dev/" target="_blank"><img src="images/react-native.png" alt=""></a>
+            <a href="https://symfony.com/" target="_blank"><img src="images/symfony.png" alt=""></a>
+            <a href="https://www.mysql.com/" target="_blank"><img src="images/mysql.png" alt=""></a>
+            <a href="https://firebase.google.com/" target="_blank"><img src="images/firebase.png" alt=""></a>
+
+            <a href="https://www.electronjs.org/" target="_blank"><img src="images/electron.png" alt=""></a>
+            <a href="https://wordpress.org/" target="_blank"><img src="images/wordpress.png" alt=""></a>
+            <a href="https://jestjs.io/" target="_blank"><img src="images/jest.svg" alt=""></a>
+            <a href="https://mui.com/" target="_blank"><img src="images/mui.png" alt=""></a>
+            <a href="https://code.visualstudio.com/" target="_blank"><img src="images/vscode.jpg" alt=""></a>
+        </div>
+    </section>
+
+
+
+    <section id="projects">
+
+        <h2>Projets academiques</h2>
+
+        <div class="cards">
+
+            <!-- Projet 01 -->
+            <article class="project-card">
+
+                <div class="project-image">
+
+                    <img src="images/electron.png" alt="Aperçu du projet Code Wallet">
+
+                    <div class="project-overlay">
+                        <a href="https://github.com/Ashai12/Code-Wallet/releases/tag/CodeWallet" target="_blank">
+                            Voir le projet ↗
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="project-content">
+
+                    <div class="project-title">
+                        <h3>Code Wallet</h3>
+                        <span>01</span>
+                    </div>
+
+                    <p>
+                        Application de bureau (Windows) permettant de gérer
+                        ses codes.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Electron</span>
+                    </div>
+
+                </div>
+
+            </article>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <div class="contact-wrap">
+            <div class="contact-intro">
+                <p class="eyebrow">Contact</p>
+                <h2>Discutons</h2>
+                <p>
+                    Étudiant en développement web, je suis ouvert à la discussion autour
+                    des projets web, du numérique et des opportunités qui peuvent me permettre
+                    de continuer à apprendre et à évoluer dans ce domaine. N’hésitez pas à me contacter.
+                </p>
+            </div>
+
+            <form class="contact-form" action="#" method="post">
+                <div class="field">
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                </div>
+
+                <div class="field">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="votre@email.fr" required>
+                </div>
+
+                <div class="field">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
+                </div>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>
